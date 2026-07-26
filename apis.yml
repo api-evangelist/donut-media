@@ -1,7 +1,16 @@
 aid: donut-media
 name: Donut Media
-description: Donut Media is a company surfaced as a portfolio company of techstars and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Donut Media is an American automotive entertainment brand and one of the
+  largest automotive channels on YouTube, founded in 2015 by Matt Levin, Ben
+  Conrad, and Nick Moceri. It is best known for original series such as Up to
+  Speed, Money Pit, and HiLow, along with the Past Gas podcast, reaching
+  millions of car enthusiasts through video, social, and audio. Donut monetizes
+  through advertising, brand sponsorships, content licensing, and an extensive
+  Shopify-powered online store selling apparel, hats, and collectibles. The
+  company was acquired by Recurrent Ventures in November 2021. This profile
+  documents Donut Media's public web and commerce surface; the company does not
+  publish a developer API program.
 url: https://raw.githubusercontent.com/api-evangelist/donut-media/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,11 +18,31 @@ x-backed-by:
 - techstars
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
+- Media
+- Automotive
+- Entertainment
+- Video
+- YouTube
+- Ecommerce
+- Merchandise
+- Podcast
+image: https://donut.media/cdn/shop/files/donut-icon_f6c597f6-925c-48ab-8bce-64048828aa3c.png?v=1763406294
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -21,5 +50,20 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/donut-media-domain-security.yml
 - type: Website
   url: https://donut.media/
+- type: Blog
+  url: https://donut.media/blogs/news
+- type: Support
+  url: https://donut.media/policies/contact-information
+- type: PrivacyPolicy
+  url: https://donut.media/policies/privacy-policy
+- type: TermsOfService
+  url: https://donut.media/policies/terms-of-service
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
