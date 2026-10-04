@@ -52,7 +52,6 @@ tags:
 - YouTube
 - E-Commerce
 - Merchandise
-- Podcasts
 tags_raw:
 - Company
 - Media
@@ -62,7 +61,6 @@ tags_raw:
 - YouTube
 - Ecommerce
 - Merchandise
-- Podcast
 image: https://donut.media/cdn/shop/files/donut-icon_f6c597f6-925c-48ab-8bce-64048828aa3c.png?v=1763406294
 apis: []
 maintainers:
@@ -88,3 +86,5 @@ x-enrichment:
   status: backfilled
   pass: local-v1
   note: backfilled from .gitignore signal + verified work evidence
+x-tags-removed:
+- Podcasts
